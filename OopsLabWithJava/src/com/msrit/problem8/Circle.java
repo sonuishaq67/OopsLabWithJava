@@ -7,7 +7,7 @@ public class Circle {
 		this.radius = radius;
 	}
 
-	float circleArea() {
+	float calcArea() {
 		float area = (float) (3.14 * radius * radius);
 		return area;
 	}
@@ -15,13 +15,12 @@ public class Circle {
 
 class Sector extends Circle {
 	float radian;
-
-	Sector(float radius, float radian2) {
+	Sector(float radius,float radian) {
 		super(radius);
-		this.radian = radian2;
+		this.radian = radian;
 	}
-
-	float areaSector() {
+	
+	float calcArea() {
 		float area = (float) (0.5 * radian * radius * radius);
 		return area;
 	}
@@ -30,12 +29,12 @@ class Sector extends Circle {
 class Segment extends Circle {
 	float length;
 
-	Segment(float radius, float length) {
+	Segment(float radius,float length) {
 		super(radius);
 		this.length = length;
 	}
 
-	float areaSegment() {
+	float calcArea() {
 		float area=(float) ((radius*radius)*((radius-length)/length)-(radius-length)*Math.pow((2*radius*length-(length*length)),0.5));
 		return area;
 	}
