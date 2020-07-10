@@ -1,50 +1,60 @@
 package com.msrit.problem9;
 
 public abstract class Vehicle {
-	public int year_of_manufacture=100;
+	public int year_of_manufacture;
 
 	Vehicle() {
 	}
 
-	public abstract void getData();
+	public abstract int getData();
 
-	public abstract void putData();
+	public abstract void putData(int year);
 }
 
-class TwoWheeler extends Vehicle{
+class TwoWheeler extends Vehicle {
 
 	@Override
-	public void getData() {
-		
-		
+	public int getData() {
+
+		return year_of_manufacture;
 	}
 
 	@Override
-	public void putData() {
-		
-		
+	public void putData(int year) {
+		year_of_manufacture = year;
+
 	}
-	TwoWheeler()
-	{
-		year_of_manufacture=100;
-		System.out.println(year_of_manufacture);
+
+	TwoWheeler(int year) {
+		year_of_manufacture = year;
+
 	}
-	
 
 }
-	
-final class FourWheeler extends Vehicle{
+
+final class FourWheeler extends Vehicle {
 
 	@Override
-	public void getData() {
-		
-		
+	public int getData() {
+
+		return year_of_manufacture;
+
 	}
 
 	@Override
-	public void putData() {
-		
-		
+	public void putData(int year) {
+		year_of_manufacture = year;
+
 	}
-	
+	FourWheeler(int year){
+		year_of_manufacture=year;
+	}
+
+}
+
+class MyTwoWheeler extends TwoWheeler {
+	MyTwoWheeler(int year) {
+		super(year);
+	}
+
 }
