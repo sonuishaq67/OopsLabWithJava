@@ -1,25 +1,29 @@
 package com.msrit.problem11;
 
-import java.util.Scanner;
-
 import com.msrit.StudentPackage.RegisterStudent;
 
-public class StudentDriver implements Student{
-	String name,branch;
-	Scanner scan=new Scanner(System.in);
+public class StudentDriver {
+
 	public static void main(String[] args) {
-		RegisterStudent regst=new RegisterStudent();
+		RegisterStudent regstud=new RegisterStudent();
+		regstud.getStudentDetails();
+		displayStudent(regstud);
 	}
-
-	@Override
-	public void getName() {
-		System.out.println("Enter your name ");
-		name=scan.nextLine();
+	static void displayStudent( RegisterStudent regstud) {
+		
+		
+		
+		
+		
 	}
+}
+class CreditLimitException extends Exception {
 
-	@Override
-	public void getBranch() {
-		System.out.println("Enter your branch ");
-		branch=scan.nextLine();
+	private int credit;
+	CreditLimitException(int credits){
+		detail=a;
+	}
+	public String toString() {
+		return "MyException["+detail+"]";
 	}
 }
