@@ -33,3 +33,6 @@ javac 11.0.7
 ## Then Download your Favourite Editor 
 ### I used Eclipse for this 
 ### [Eclipse version 2020-06](https://www.eclipse.org/downloads/)
+
+## For the Last step Clone this repository and add The OopsLabWithJava in your Workspace Folder
+### It's named *eclipse-workspace* for Linux and *workspace* for Windows 
