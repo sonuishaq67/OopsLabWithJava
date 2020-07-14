@@ -3,7 +3,7 @@
 
 ## Java Installation for Linux 
 ### Made using Eclipse on Ubuntu 20.04 
-### Installed java using 
+### Install java using 
 ```
 sudo apt install default-jdk-headless
 ```
