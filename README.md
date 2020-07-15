@@ -35,3 +35,5 @@ javac 11.0.7
 
 ### For the Last step Clone this repository and add The OopsLabWithJava in your Workspace Folder
 #### It's named *eclipse-workspace* for Linux and *workspace* for Windows 
+#### and Open Eclipse ```File->Open Projects from File System->Directory->eclipse-workspace->OopsLabWithJava```
+
