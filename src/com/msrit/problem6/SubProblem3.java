@@ -1,3 +1,4 @@
+/*Replace a substring in the given string.*/
 package com.msrit.problem6;
 
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+//To check prime numbers.
+
 package com.msrit.problem1;
 import java.util.*;
 public class ToCheckPrime {

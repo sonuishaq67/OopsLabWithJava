@@ -1,3 +1,4 @@
+/*Read a text and count all the occurrences of a particular word.*/
 package com.msrit.problem6;
 
 import java.util.Scanner;

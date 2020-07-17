@@ -1,3 +1,6 @@
+/*
+ * Create a linked list of names (String type). Use an Iterator to traverse through the list and
+print those names whose length is < 5.*/
 package com.msrit.problem12;
 
 import java.util.Scanner;

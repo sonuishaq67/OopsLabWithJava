@@ -1,3 +1,10 @@
+/*
+ Write a java program to read 2 matrices and place the product in a third matrix. Use
+constructors and suitable methods.
+*/
+
+
+
 package com.msrit.problem5;
 
 import java.util.Scanner;

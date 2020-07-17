@@ -1,3 +1,4 @@
+/*Rearrange the string and rewrite in alphabetical order*/
 package com.msrit.problem6;
 
 import java.util.Arrays;

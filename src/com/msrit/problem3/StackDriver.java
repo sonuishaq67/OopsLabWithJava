@@ -1,3 +1,10 @@
+/*
+ * Define a Stack class to implement the stack data structure. Include constructors to perform
+initialization, method push to push an element into the stack, method pop to remove an
+element from the stack and display method to display the elements of the stack.
+ * */
+
+
 package com.msrit.problem3;
 
 import java.util.Scanner;

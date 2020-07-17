@@ -1,3 +1,5 @@
+//To sort an array elements using bubble sort algorithm.
+
 package com.msrit.problem1;
 import java.util.*;
 public class ToSortUsingBubbleSort {

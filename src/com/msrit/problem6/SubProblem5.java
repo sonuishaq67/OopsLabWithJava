@@ -1,3 +1,4 @@
+/*Compare two strings ignoring case.*/
 package com.msrit.problem6;
 
 import java.util.Scanner;

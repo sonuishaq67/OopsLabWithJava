@@ -1,8 +1,14 @@
+/* Define a class Complex with data members as two real numbers, constructors for
+*  initialization these numbers, methods to add, subtract and multiply 2 complex numbers.*/
+
+
+
+
+
+
 package com.msrit.problem4;
-
 import java.util.Scanner;
-
-public class ComplexDriver {
+	public class ComplexDriver {
 
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);

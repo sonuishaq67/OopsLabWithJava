@@ -1,3 +1,5 @@
+/*Extract a portion of the string and print it. Variable m indicates the amount of
+characters to be extracted from the string starting from the n th position.*/
 package com.msrit.problem6;
 import java.util.Scanner;
 public class SubProblem1 {

@@ -1,3 +1,13 @@
+/*
+ * Create a Personal class to hold the personal details of a person such as name, age, education,
+salary-(0basic, da, hra), years of experience, number of loans and loan amount. Write
+constructors to assign values to the data members. Include an
+a. isEligible() method to indicate whether the person is eligible for loan,
+b. taxPay() method to indicate the amount of tax to be paid,
+c. isEligiblePromotion() to indicate whether the person is eligible for a promotion.
+d. Display () method to display the details.
+Enter the details of n employees and indicate their eligibility and the tax to be paid.
+ */
 package com.msrit.problem7;
 
 import java.util.Scanner;

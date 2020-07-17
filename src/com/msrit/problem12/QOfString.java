@@ -1,3 +1,5 @@
+/*Write a java program to implement queues of Strings using an ArrayList class of the
+Collection framework.*/
 package com.msrit.problem12;
 
 import java.util.ArrayList;

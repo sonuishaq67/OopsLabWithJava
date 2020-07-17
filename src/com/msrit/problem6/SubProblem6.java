@@ -1,3 +1,4 @@
+/*Concatenate two strings.*/
 package com.msrit.problem6;
 
 import java.util.Scanner;
