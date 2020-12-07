@@ -1,40 +1,10 @@
 # OopsLabWithJava
 
-## Setup
-***
-### Java Installation for Linux  
-#### For Debian based systems using apt package manager
-```
-sudo apt install default-jdk-headless
-```
-#### For rpm based Linux download [rpm package](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) and run
-```
-sudo rpm -i {jdk-11_package_name}.rpm
-```
-#### or Manual Install with .tar file
-***
-### Java Installation for windows
+## [Setup](https://42ip.github.io/Javabeginning/)
 
-#### Download and run [jdk-11.exe](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) for GUI installation or zip for Manual Installation 
-***
-### Java Installation for MacOS
-#### Download and run [jdk-11.dmg](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) for Graphical Installation or .tar file for Manual Installation
-***
-#### Output of java --version
-```
-openjdk 11.0.7 2020-04-14
-OpenJDK Runtime Environment (build 11.0.7+10)
-OpenJDK 64-Bit Server VM (build 11.0.7+10, mixed mode, sharing)
-```
-
-#### Output of javac --version
-```
-javac 11.0.7
-```
-
-***
-
-
+![](https://i.imgur.com/pyBdiP8.png)
+![](https://i.imgur.com/g3htGna.png)
+![](https://i.imgur.com/1XEX0zH.png)
 ### Then Download your Favourite Editor 
 #### I used Eclipse for this 
 #### [Eclipse version 2020-06](https://www.eclipse.org/downloads/)
